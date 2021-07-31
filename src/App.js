@@ -2,11 +2,14 @@ import "./App.css"
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
+import { Route, Switch } from "react-router-dom";
+import About from "./About";
+
 
 function App() {
   return (
-    <>
-    <Particles className="particles-canvas"
+    <Switch>
+    {/* <Particles className="particles-canvas"
     params={{
       particles: {
         number: {
@@ -25,10 +28,11 @@ function App() {
         }
       }
     }}
-  />
+  /> */}
     <Navbar />
     <Header />
-    </>
+    <Route path="/about" component={About} />
+    </Switch>
   );
 }
 

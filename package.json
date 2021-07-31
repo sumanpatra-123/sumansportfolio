@@ -1,5 +1,6 @@
 {
   "name": "portfolio-app",
+  "homepage": "https://sumanpatra-123.github.io/https://github.com/sumanpatra-123/portfolio-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,11 +11,14 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-particles-js": "^3.4.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

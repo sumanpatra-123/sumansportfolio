@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 import logo from "../components/mylogo.png";
 
 
@@ -20,8 +21,8 @@ const Navbar = () => {
       <li className="nav-item active">
         <a className="nav-link" href="#">Home</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">About me</a>
+      <li className="nav-item active">
+        <Link className="nav-link" to="/about" target="_blank">About me</Link>
    </li>
    <li className="nav-item active">
         <a className="nav-link" href="#">Services</a>

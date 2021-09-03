@@ -15,23 +15,23 @@ const Navbar = () => {
   
   </button>
 
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">  
   
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home</a>
+        <Link className="nav-link" to="/home">Home</Link>
       </li>
       <li className="nav-item active">
-        <Link className="nav-link" to="/about" target="_blank">About me</Link>
+        <Link className="nav-link" to="/about">About me</Link>
    </li>
    <li className="nav-item active">
-        <a className="nav-link" href="#">Services</a>
+        <Link className="nav-link" to="/service">Services</Link>
       </li>
       <li className="nav-item active">
-        <a className="nav-link" href="#">Works</a>
+        <Link className="nav-link" to="/work">Works</Link>
       </li>
       <li className="nav-item active">
-        <a className="nav-link" href="#">Portfolio</a>
+        <Link className="nav-link" to="/portfolio">Portfolio</Link>
       </li>
 
     </ul>

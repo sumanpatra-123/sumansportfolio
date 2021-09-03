@@ -112,7 +112,7 @@ nav ul li {
   background: url(./components/images/pexels-tranmautritam-326508.jpg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 86vh;
 }
 
 .main-info{
@@ -188,4 +188,134 @@ nav ul li {
       display: none;
     
     }
+}
+
+/* -----------------------------------About section------------------------------ */
+
+.about
+{
+  background: url('./components/images/AboutBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.about-sec
+{
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.Mypic {
+  margin-top: 10%;
+}
+
+ .content
+{
+  color: antiquewhite;
+  margin-top: 11%;
+}
+
+.content h1
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 90px;
+  color: yellow;
+  font-weight: bolder;
+}
+
+.content h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #61dafb;
+  font-weight: bolder
+}
+
+.content p
+{
+  font-family:sans-serif;
+  color: #ffe711c1;
+  font-weight: bolder;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .content {
+    text-align: center;
+  }
+}
+
+/* -------------ServicesJS------------ */
+
+.services
+{
+  background: url('./components/images/AboutBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card
+{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.card1
+{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.card-row
+{
+  display: flex;
+  justify-content: center !important;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .col1 {
+    width: 80% !important;
+  }
+}
+
+
+
+
+/* ---------works section---- */
+
+.works
+{
+  background: url('./components/images/AboutBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.work-section
+{
+  margin-left: 10%;
+}
+
+.work-section h1
+{
+  margin-left: 2%;
+  padding: 10px 10px 10px 10px;
+  color:rgb(244, 248, 10);
+  text-shadow: 2px 2px #ff0000;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.work-section h2{
+  color: #61dafb;
+  font-size: 25px;
+}
+
+.work-section h3
+{
+  color: #fff;
+  font-size: 15px;
 }

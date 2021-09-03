@@ -17,10 +17,10 @@ loop
 />
 
 <div> 
-    <a href="#" className="btn btn-outline-primary"> contact me </a>
+    {/* <a href="#" className="btn btn-outline-primary"> contact me </a> */}
      </div>
-            </div>
-        </div>
+</div>
+</div>
     )
 }
 

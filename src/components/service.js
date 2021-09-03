@@ -8,7 +8,7 @@ function service()
       <h1 style={{fontSize: 30, marginLeft: 30, color: "blue"}}>{card1}</h1>
        <p style={{marginLeft: 30, height: 50, padding: "5px 10px"}}>{card2}
        </p>
-       <a href="#" class="btn btn-primary" style={{color: "white"}}>{card3}</a>
+       <a href="#!" class="btn btn-primary" style={{color: "white"}}>{card3}</a>
       </div>
    </div>
    }

@@ -7,7 +7,7 @@ function portfolio()
 {
     return (
         <div>
-        <img src= {resume} height="100%" width="100%" />
+        <img src= {resume} height="100%" width="100%" alt="resume" />
         </div>
     );
     

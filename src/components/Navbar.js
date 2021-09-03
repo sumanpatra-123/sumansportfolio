@@ -19,7 +19,7 @@ const Navbar = () => {
   
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <Link className="nav-link" to="/home">Suman</Link>
+        <Link className="nav-link" to="/home">Home</Link>
       </li>
       <li className="nav-item active">
         <Link className="nav-link" to="/about">About me</Link>
